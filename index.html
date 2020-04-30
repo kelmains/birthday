@@ -10,12 +10,48 @@
   </head>
   <body>
     <div class="header-container">
-      
         <div class="body-container" style="background-image: url('birthday.png');">
           <div class="header-card">
             <marquee><h3> 🎉🎉Happy birthday!!🎉🎉</h3></marquee>
           </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="jumbotron">
+                <b><p>This web application takes your birthday and
+                  calculates the day of the week you were born and then depending on your gender it gives you a Akan Name. </p></b>
+                  <br>
+                  <b><p>Akan names are derived from Ghanian culture.
+                    Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p></b>
+                  <br>
+                  <b><p>Have fun Finding your Akan Name!!</p></b>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="container">
+                <form class="form" action="index.html" method="post">
+                  <b><h2 style="text-align:center">Find your Akan name here</h2></b>
+                  <form>
+                    <fieldset>
+                      <legend>Enter your details below</legend>
+                      <label for="name">Enter Name:</label>
+                      <input type="text" id="fname" name="fname"><br><br>
+                      <label for="gender">Enter Gender:</label>
+                        <select id="gender">
+                          <option value="male">Male</option>
+                          <option value="female">Femal</option>
+                        </select><br><br>
+                      <label for="birthday">Enter your birthday:</label>
+                      <input type="date" id="birthday" name="birthday"><br><br>
+                      <input type="submit" value="Submit">
+                    </fieldset>
+                  </form>
+
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
+
 
 
 

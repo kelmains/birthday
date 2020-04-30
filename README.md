@@ -1,5 +1,5 @@
 ## Birthday Wesite
-Author: Kelvin  Maina @kelmains
+**Author:** Kelvin  Maina @kelmains
 ### About the website
 A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
@@ -42,6 +42,8 @@ Open the folder in a text editor preferably Atom and compile the project. Happy 
 HTML
 CSS |BOOTSTRAP
 JAVASCRIPT
+
+**The link can be access through this link**[#]
 
 ### Contact information
 ![Alt text](imagesadmin.jpg/?raw=true "Title")

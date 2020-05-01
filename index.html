@@ -3,11 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Birthday</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">s
     <link rel="stylesheet" href="css/style.css">
-
-
-  </head>
+    </head>
   <body>
     <div class="header-container">
         <div class="body-container" style="background-image: url('birthday.png');">
@@ -30,16 +28,16 @@
               <div class="container">
                 <form class="form" action="index.html" method="post">
                   <b><h2 style="text-align:center">Find your Akan name here</h2></b>
-                  <form>
+                  <form id="Birthday" method="post">
                     <fieldset>
                       <legend>Enter your details below</legend>
                       <label for="name">Enter Name:</label>
                       <input type="text" id="fname" name="fname"><br><br>
                       <label for="gender">Enter Gender:</label>
-                        <select id="gender">
-                          <option value="male">Male</option>
-                          <option value="female">Femal</option>
-                        </select><br><br>
+                        <select class="form-control" name="" id="gender">
+                          <option value="Male">Male</option>
+                          <option value="Female">Female</option>
+                        </select><br>
                       <label for="birthday">Enter your birthday:</label>
                       <input type="date"  name="" id="Date" value="" class="form-control"><br><br>
                       <button type="submit" class="btn btn-info" name="button">Get Name</button>

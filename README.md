@@ -46,7 +46,7 @@ JAVASCRIPT
 **The link can be access through this link**[ https://kelmains.github.io/birthday/]
 
 ### Contact information
-![Alt text](imagesadmin.jpg/?raw=true "Title")
+![Alt text](images/admin.jpg/?raw=true "Title")
 [twitter][https://twitter.com/kelmains]
 [LinkedIn][https://www.linkedin.com/in/kelvin-maina-0a6651101/]
 

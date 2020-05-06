@@ -4,6 +4,7 @@ $(document).ready(function(){
       event/preventDefault();
       var Birthday=$("input#Date").val();
       var Gender=$("select#Gender").val();
+      var fName=$("inpute#fName").val();
 
 
 var days =['Sunday', 'Monday', 'Tuesday', 'Wednesday','Thursday', 'Friday', 'Saturday'];
@@ -67,5 +68,6 @@ else {
   }
 }
  document.getElementById('name').innerHTMl = "Your Akan name is" <b>"+Name+"</b> since you were born on "+dayName";
+ $("#output").text(name);
 });
 });
